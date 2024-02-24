@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 
 export function NuevoProducto() {
-
+ 
     const [mensaje, setMensaje] = useState("");
     const [nombre, setNombre] = useState("");
     const [precio, setPrecio] = useState("");
